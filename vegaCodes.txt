@@ -1,0 +1,214 @@
+BarPlot accidents per city in 2019
+{
+  "width": 500,
+  "height": 400,
+  "data": {
+    "values": [
+      {"City": "Alvaro Obregon", "Number of accidents": 15636}, {"City": "Azcapotzalco", "Number of accidents": 8844}, {"City": "Benito Juarez", "Number of accidents": 16294},
+      {"City": "Coyoacan", "Number of accidents": 16536}, {"City": "Cuajimalpa", "Number of accidents": 4082}, {"City": "Cuauhtemoc", "Number of accidents": 20524},
+      {"City": "Gustavo A. Madero", "Number of accidents": 20298}, {"City": "Iztacalco", "Number of accidents": 8873}, {"City": "Iztapalapa", "Number of accidents": 33235},
+      {"City": "Magdalena Contreras", "Number of accidents": 3148}, {"City": "Miguel Hidalgo", "Number of accidents": 16719}, {"City": "Milpa Alta", "Number of accidents": 1101},
+      {"City": "Tlahuac", "Number of accidents": 5129}, {"City": "Tlalplan", "Number of accidents": 14879}, {"City": "Venustiano Carranza", "Number of accidents": 14335},
+      {"City": "Xochimilco", "Number of accidents": 7982}
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "City", "type": "nominal", "axis": {"labelAngle": 90}},
+    "y": {"field": "Number of accidents", "type": "quantitative"},
+    "color": {"field": "Number of accidents"}
+  }
+}
+
+BarPlot accidents per city in 2018
+{
+  "width": 500,
+  "height": 400,
+  "data": {
+    "values": [
+      {"City": "Alvaro Obregon", "Number of accidents": 18734}, {"City": "Azcapotzalco", "Number of accidents": 10685}, {"City": "Benito Juarez", "Number of accidents": 18837},
+      {"City": "Coyoacan", "Number of accidents": 19600}, {"City": "Cuajimalpa", "Number of accidents": 4966}, {"City": "Cuauhtemoc", "Number of accidents": 24811},
+      {"City": "Gustavo A. Madero", "Number of accidents": 25069}, {"City": "Iztacalco", "Number of accidents": 9826}, {"City": "Iztapalapa", "Number of accidents": 40577},
+      {"City": "Magdalena Contreras", "Number of accidents": 3806}, {"City": "Miguel Hidalgo", "Number of accidents": 20694}, {"City": "Milpa Alta", "Number of accidents": 1338},
+      {"City": "Tlahuac", "Number of accidents": 6037}, {"City": "Tlalplan", "Number of accidents": 15224}, {"City": "Venustiano Carranza", "Number of accidents": 16640},
+      {"City": "Xochimilco", "Number of accidents": 9697}
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "City", "type": "nominal", "axis": {"labelAngle": 90}},
+    "y": {"field": "Number of accidents", "type": "quantitative"},
+    "color": {"field": "Number of accidents"}
+  }
+}
+
+BarPlot accidents per city in 2017
+{
+  "width": 500,
+  "height": 400,
+  "data": {
+    "values": [
+      {"City": "Alvaro Obregon", "Number of accidents": 17390}, {"City": "Azcapotzalco", "Number of accidents": 9617}, {"City": "Benito Juarez", "Number of accidents": 16939},
+      {"City": "Coyoacan", "Number of accidents": 17988}, {"City": "Cuajimalpa", "Number of accidents": 4726}, {"City": "Cuauhtemoc", "Number of accidents": 22420},
+      {"City": "Gustavo A. Madero", "Number of accidents": 24230}, {"City": "Iztacalco", "Number of accidents": 9042}, {"City": "Iztapalapa", "Number of accidents": 37532},
+      {"City": "Magdalena Contreras", "Number of accidents": 3189}, {"City": "Miguel Hidalgo", "Number of accidents": 19406}, {"City": "Milpa Alta", "Number of accidents": 1133},
+      {"City": "Tlahuac", "Number of accidents": 5723}, {"City": "Tlalplan", "Number of accidents": 13759}, {"City": "Venustiano Carranza", "Number of accidents": 14707},
+      {"City": "Xochimilco", "Number of accidents": 8730}
+    ]
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {"field": "City", "type": "nominal", "axis": {"labelAngle": 90}},
+    "y": {"field": "Number of accidents", "type": "quantitative"},
+    "color": {"field": "Number of accidents"}
+  }
+}
+
+Accidents per time of the day 2019
+{
+    "width": 500,
+  "height": 400,
+  "data": {
+    "values": [
+      {"Part of the day":"Midday" , "Cases":47754 , "img": "https://www.onlygfx.com/wp-content/uploads/2018/09/4-clipart-sun-1.png"},
+      {"Part of the day": "Midnight", "Cases": 67840, "img": "http://assets.stickpng.com/images/580b585b2edbce24c47b270b.png"},
+            {"Part of the day": "Sunset", "Cases": 70396, "img": "https://img.icons8.com/color/480/evening.png"},
+      {"Part of the day": "Sunrise", "Cases": 21641, "img": "https://cdn.pixabay.com/photo/2017/09/13/17/20/sol-2746241_960_720.png"}
+    ]
+  },
+  "mark": {"type": "image", "width": 80, "height": 80},
+  "encoding": {
+    "y": {"field": "Part of the day", "type": "nominal"},
+    "x": {"field": "Cases", "type": "quantitative"},
+    "url": {"field": "img", "type": "nominal"}
+  }
+}
+
+Accidents per time of the day 2018
+{
+    "width": 500,
+  "height": 400,
+  "data": {
+    "values": [
+      {"Part of the day":"Midday" , "Cases":53784 , "img": "https://www.onlygfx.com/wp-content/uploads/2018/09/4-clipart-sun-1.png"},
+      {"Part of the day": "Midnight", "Cases": 83462, "img": "http://assets.stickpng.com/images/580b585b2edbce24c47b270b.png"},
+            {"Part of the day": "Sunset", "Cases": 68909, "img": "https://img.icons8.com/color/480/evening.png"},
+      {"Part of the day": "Sunrise", "Cases": 25774, "img": "https://cdn.pixabay.com/photo/2017/09/13/17/20/sol-2746241_960_720.png"}
+    ]
+  },
+  "mark": {"type": "image", "width": 80, "height": 80},
+  "encoding": {
+    "y": {"field": "Part of the day", "type": "nominal"},
+    "x": {"field": "Cases", "type": "quantitative"},
+    "url": {"field": "img", "type": "nominal"}
+  }
+}
+
+Accidents per time of the day 2017
+{
+    "width": 500,
+  "height": 400,
+  "data": {
+    "values": [
+      {"Part of the day":"Midday" , "Cases":53527 , "img": "https://www.onlygfx.com/wp-content/uploads/2018/09/4-clipart-sun-1.png"},
+      {"Part of the day": "Midnight", "Cases": 72199, "img": "http://assets.stickpng.com/images/580b585b2edbce24c47b270b.png"},
+            {"Part of the day": "Sunset", "Cases": 78010, "img": "https://img.icons8.com/color/480/evening.png"},
+      {"Part of the day": "Sunrise", "Cases": 22799, "img": "https://cdn.pixabay.com/photo/2017/09/13/17/20/sol-2746241_960_720.png"}
+    ]
+  },
+  "mark": {"type": "image", "width": 80, "height": 80},
+  "encoding": {
+    "y": {"field": "Part of the day", "type": "nominal"},
+    "x": {"field": "Cases", "type": "quantitative"},
+    "url": {"field": "img", "type": "nominal"}
+  }
+}
+
+Accidents in 2019
+{
+  "width": 500,
+  "height": 400,
+  "data": {
+    "values":[
+      {"Month":" January 2019","Cases":16493},{"Month":"February 2019","Cases":18184},{"Month":"March 2019","Cases":20068},{"Month":"April 2019","Cases":15793},{"Month":"May 2019","Cases":17476},{"Month":"June 2019","Cases":18750},{"Month":"July 2019","Cases":17472},{"Month":"Aug 2019","Cases":19711},{"Month":"Sept 2019","Cases":19752},{"Month":"Oct 2019","Cases":22311},{"Month":"Nov 2019","Cases":21621}
+    ]
+  },
+  "mark": {
+    "type": "line",
+    "point": {
+          "filled": false,
+      "fill": "white"
+    }
+  },
+  "encoding": {
+    "x": {"field": "Month", "type": "temporal"},
+    "y": {"field": "Cases", "type": "quantitative"},
+  }
+}
+
+Accidents in 2018
+{
+  "width": 500,
+  "height": 400,
+  "data": {
+    "values":[
+      {"Month":" January 2018","Cases":17829},{"Month":"February 2018","Cases":18514},{"Month":"March 2018","Cases":19898},{"Month":"April 2018","Cases":20183},{"Month":"May 2018","Cases":22217},{"Month":"June 2018","Cases":20893},{"Month":"July 2018","Cases":19279},{"Month":"Aug 2018","Cases":21542},{"Month":"Sept 2018","Cases":21129},{"Month":"Oct 2018","Cases":22269},{"Month":"Nov 2018","Cases":20730},{"Month":"Dec 2018","Cases":21648}
+    ]
+  },
+  "mark": {
+    "type": "line",
+    "point": {
+          "filled": false,
+      "fill": "white"
+    }
+  },
+  "encoding": {
+    "x": {"field": "Month", "type": "temporal"},
+    "y": {"field": "Cases", "type": "quantitative"},
+  }
+}
+
+Accidents in 2017
+{
+  "width": 500,
+  "height": 400,
+  "data": {
+    "values":[
+      {"Month":" January 2017","Cases":16868},{"Month":"February 2017","Cases":18011},{"Month":"March 2017","Cases":19645},{"Month":"April 2017","Cases":15669},{"Month":"May 2017","Cases":17621},{"Month":"June 2017","Cases":18533},{"Month":"July 2017","Cases":18058},{"Month":"Aug 2017","Cases":19544},{"Month":"Sept 2017","Cases":17961,},{"Month":"Oct 2017","Cases":21283,},{"Month":"Nov 2017","Cases":21402},{"Month":"Dec 2017","Cases":21940}
+    ]
+  },
+  "mark": {
+    "type": "line",
+    "point": {
+          "filled": false,
+      "fill": "white"
+    }
+  },
+  "encoding": {
+    "x": {"field": "Month", "type": "temporal"},
+    "y": {"field": "Cases", "type": "quantitative"},
+  }
+}
+
+{
+  "width": 500,
+  "height": 400,
+  "data": {
+    "values":[
+      {"Month":" January 2019","Cases":16493},{"Month":"February 2019","Cases":18184},{"Month":"March 2019","Cases":20068},{"Month":"April 2019","Cases":15793},{"Month":"May 2019","Cases":17476},{"Month":"June 2019","Cases":18750},{"Month":"July 2019","Cases":17472},{"Month":"Aug 2019","Cases":19711},{"Month":"Sept 2019","Cases":19752},{"Month":"Oct 2019","Cases":22311},{"Month":"Nov 2019","Cases":21621}, {"Month":" January 2018","Cases":17829},{"Month":"February 2018","Cases":18514},{"Month":"March 2018","Cases":19898},{"Month":"April 2018","Cases":20183},{"Month":"May 2018","Cases":22217},{"Month":"June 2018","Cases":20893},{"Month":"July 2018","Cases":19279},{"Month":"Aug 2018","Cases":21542},{"Month":"Sept 2018","Cases":21129},{"Month":"Oct 2018","Cases":22269},{"Month":"Nov 2018","Cases":20730},{"Month":"Dec 2018","Cases":21648},{"Month":" January 2017","Cases":16868},{"Month":"February 2017","Cases":18011},{"Month":"March 2017","Cases":19645},{"Month":"April 2017","Cases":15669},{"Month":"May 2017","Cases":17621},{"Month":"June 2017","Cases":18533},{"Month":"July 2017","Cases":18058},{"Month":"Aug 2017","Cases":19544},{"Month":"Sept 2017","Cases":17961},{"Month":"Oct 2017","Cases":21283},{"Month":"Nov 2017","Cases":21402},{"Month":"Dec 2017","Cases":21940}
+    
+    
+    ]
+  },
+  "mark": {
+    "type": "line",
+    "point": {
+          "filled": false,
+      "fill": "white"
+    }
+  },
+  "encoding": {
+    "x": {"field": "Month", "type": "temporal"},
+    "y": {"field": "Cases", "type": "quantitative"},
+  }
+}
